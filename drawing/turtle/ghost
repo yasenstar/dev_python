@@ -1,0 +1,94 @@
+reset
+canvascolor 0, 0, 0
+pencolor 255,255,255
+penwidth 2
+go 200,100
+direction 90
+
+repeat 5 {
+forward 8
+turnright 6
+}
+
+repeat 6 {
+forward 5
+turnright 10
+}
+
+forward 88
+
+repeat 3 {
+turnleft 10
+forward 30
+}
+
+turnright 160
+repeat 2 {
+
+repeat 8 {
+forward 4
+turnleft 10
+}
+repeat 8 {
+forward 4
+turnright 10
+}
+
+}
+
+repeat 8 {
+forward 5
+turnleft 10
+}
+
+turnright 160
+
+repeat 3 {
+turnleft 10
+forward 30
+}
+
+forward 74
+
+repeat 6 {
+forward 5
+turnright 10
+
+}
+
+repeat 5 {
+forward 8
+turnright 6
+}
+
+go 255, 180
+direction 90
+
+repeat 9 {
+turnleft 8
+forward 5
+}
+repeat 10 {
+turnright 18
+forward 4
+}
+repeat 9 {
+turnright 7
+forward 7
+}
+
+go 145, 180
+direction 270
+
+repeat 9 {
+turnright 8
+forward 5
+}
+repeat 10 {
+turnleft 18
+forward 4
+}
+repeat 9 {
+turnleft 7
+forward 7
+}
