@@ -2,7 +2,7 @@
 
 # pip3 install pyautogui
 
-import pyautogui as pyautogui
+import pyautogui as py
 import time
 
 loc = py.locateOnScreen('buttomIcon.PNG',)
