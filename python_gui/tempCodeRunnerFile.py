@@ -1,2 +1,2 @@
-    spy_name = choice(first_name) + " " + choice(last_name)
-    print(spy_name)
+
+# bottom_text = TextBox(app, "bottom text")
